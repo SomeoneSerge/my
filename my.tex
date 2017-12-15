@@ -1,0 +1,39 @@
+\documentclass[a4paper]{article}
+
+\usepackage{fontspec}
+\usepackage[russian]{babel}
+\setmainfont{CMU Serif}
+
+\usepackage[
+backend=biber,
+style=reading,
+]{biblatex}
+\addbibresource{my.bib}
+
+\title{Отчёт по науке}
+\author{Serge Kozlukov}
+
+\begin{document}
+\maketitle
+
+\section*{Конференции}
+\begin{itemize}
+\item
+    Молодёжная международная научная конференция
+    ``Методы современного математического анализа и геометрии и их приложения'',
+    Воронеж,
+    26.12.2016,
+    Воронежский государственный педагогический институт.
+    Тема: ``Spectra of almost-all-ones matrices''.
+\item 
+    Международная научно-техническая конференция
+    ``Актуальные проблемы прикладной
+    математики, информатики и механики'',
+    Воронеж,
+    18-20 декабря 2017 г.
+    Тема: ``Исследование спектральных свойств матриц смежностей орграфов специального вида методом подобных операторов''.
+\end{itemize}
+
+\nocite{*}
+\printbibliography
+\end{document}
